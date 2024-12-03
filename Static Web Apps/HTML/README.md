@@ -36,7 +36,7 @@ Here are some of the most commonly used HTML elements:
 
 ## Conclusion
 
-HTML is the backbone of web development, providing the structure needed for both simple and complex web pages. Understanding basic HTML is essential for anyone looking to create web applications or websites. By learning HTML, you can begin creating your own web projects and understand how content is delivered to users on the internet.
+HTML is the backbone of web development, providing the structure needed for both simple and complex web pages. Understanding basic HTML is essential for anyone looking to create web applications or websites. By learning HTML, you can begin creating your own web projects and understand how content is delivered to users on the internet and in your case, to communicate your idea to the audience and judges.
 
 For more advanced web applications, HTML is often combined with CSS for styling and JavaScript for adding interactivity.
 
