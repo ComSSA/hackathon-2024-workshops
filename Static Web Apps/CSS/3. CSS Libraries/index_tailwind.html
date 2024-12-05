@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Styled Web Page</title>
+    <!-- Tailwind CSS (via CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-semibold">My Tailwind Page</a>
+            <div class="space-x-4">
+                <a href="#" class="hover:bg-blue-700 px-3 py-2 rounded-md">Home</a>
+                <a href="#" class="hover:bg-blue-700 px-3 py-2 rounded-md">About</a>
+                <a href="#" class="hover:bg-blue-700 px-3 py-2 rounded-md">Services</a>
+                <a href="#" class="hover:bg-blue-700 px-3 py-2 rounded-md">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-500 text-white text-center py-12">
+        <h1 class="text-4xl font-bold">Welcome to My Tailwind Web Page</h1>
+        <p class="mt-2 text-lg">Styled using Tailwind CSS</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-8 flex-grow">
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="https://via.placeholder.com/300" alt="Web Design" class="w-full h-64 object-cover rounded-md">
+                <h3 class="text-xl font-semibold mt-4">Web Design</h3>
+                <p class="mt-2 text-gray-600">We create beautiful and user-friendly websites that provide a great user experience.</p>
+                <a href="#" class="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Learn More</a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="https://via.placeholder.com/300" alt="SEO Optimization" class="w-full h-64 object-cover rounded-md">
+                <h3 class="text-xl font-semibold mt-4">SEO Optimization</h3>
+                <p class="mt-2 text-gray-600">Our SEO strategies help increase the visibility of your website on search engines like Google.</p>
+                <a href="#" class="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Learn More</a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="https://via.placeholder.com/300" alt="App Development" class="w-full h-64 object-cover rounded-md">
+                <h3 class="text-xl font-semibold mt-4">App Development</h3>
+                <p class="mt-2 text-gray-600">We build custom mobile applications that meet your business needs and drive engagement.</p>
+                <a href="#" class="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4 mt-8">
+        <p>&copy; 2024 My Tailwind Web Page | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
